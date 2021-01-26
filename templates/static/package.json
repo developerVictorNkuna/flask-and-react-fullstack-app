@@ -1,0 +1,31 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "Flask application with React components for UI and template for creating a full stack wep app with Flask, NPM, Webpack, and Reactjs, packag json file for dependencies like webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --progress --config webpack.config.js",
+    "dev-build": "webpack --progress -d --config webpack.config.js",
+    "watch": "webpack --progress -d --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "portfolio",
+    "template",
+    "python",
+    "react",
+    "npm",
+    "webpack"
+  ],
+
+  "author": "developerVictorNkuna",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
